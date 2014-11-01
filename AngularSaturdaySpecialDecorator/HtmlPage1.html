@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+    <title></title>
+</head>
+<body>
+    <div ng-controller="logController">
+        <button ng-click="logCall('debug')">LogDebug</button>
+        <br/>
+        <br/>
+        <button ng-click="logCall('error')">LogError</button>
+        <br />
+        <br />
+        <button ng-click="logCall('warn')">LogError</button>
+        <script src="Scripts/angular.js"></script>
+        <script src="Scripts/angular-resource.js"></script>
+        <script src="Scripts/angular-route.js"></script>
+        <script src="Scripts/app/app.js"></script>
+        <script src="Scripts/app/controller/logController.js"></script>
+    </div>
+</body>
+</html>
